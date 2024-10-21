@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("./image/cidade.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #fff;
+    background-image: url("./image/super\ herói\ sombrio.png");
+    padding: 80px;
+    box-shadow: 0 0 15px rgb(251, 251, 251);
+    border-radius: 20px;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+
+}
+
+input[type="text"] {
+     padding: 10px;
+     font-size: 16px;
+     width: 200px;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     border: 1px solid #ffffff;   
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+
+}
+
+.hero-level {
+    font-size: 20px;
+    font-weight: bold;
+    color: #efeb00;
+    box-shadow: 0 0 15px rgb(251, 251, 251);
+    margin-top: 20px;
+}
+

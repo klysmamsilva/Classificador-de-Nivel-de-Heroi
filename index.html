@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de Nível de Heróis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Classificador de Nível de Heróis</h1>
+
+
+    <div>
+        <p>
+        <input type="text" id="nome" placeholder="Digite o nome do Héroi" pattern="^[a-zA-Z][a-zA-Z-_\.]{1,20}$" required>       
+        </p>
+    </div>
+
+        <input type="number" id="heroPoints" placeholder="Digite os Pontos">
+
+      <p>
+        <button onclick="classifyHero()">Classificar</button>
+     </p>
+     
+     <audio  controls autoplay>
+        <source src="audio/Alan Walker - Hero (Lyrics) ft. Sasha Alex Sloan(MP3_160K).mp3" type="audio/mpeg">
+    </audio>
+
+        <div class="hero-level" id="heroLevel"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
